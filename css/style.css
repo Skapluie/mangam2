@@ -1,8 +1,10 @@
-body{
+body, html{
 	background: #FEF5E6;
 	width: 100%;
 	height:100%;
-	margin: 0; height: 100%; overflow: hidden
+	margin: 0; height: 100%; overflow: hidden;
+	min-height: 100% !important;
+
 }
 
 /*Intro*/
@@ -17,6 +19,7 @@ body{
 	display: none;
 }
 
+/*Second Section */
 .icons-dis{
 
 	display: none;
@@ -52,7 +55,66 @@ body{
 
 	display: none;
 }
+/*End second Section */
 
+/*Thid Section */
+.icon2-1{
+
+	display: none;
+}
+
+.icon2-2{
+
+	display: none;
+}
+
+.icon2-3{
+
+	display: none;
+}
+.icon2-4{
+
+	display: none;
+}
+
+.icon-words{
+
+	display: none;
+}
+
+.icon-words2{
+
+	display: none;
+}
+/*End Third Section */
+
+
+/*Thid Section */
+.icon3-2{
+
+	display: none;
+}
+
+.icon3-3{
+
+	display: none;
+}
+
+.icon3-4{
+
+	display: none;
+}
+.icon3-5{
+
+	display: none;
+}
+
+.icon3-6{
+
+	display: none;
+}
+
+/*End Third Section */
 
 /*End Main*/
 /*first sec*/
@@ -96,12 +158,19 @@ body{
 /*End Footer*/
 
 /*Sec-sec*/
-.sec-sec{
-	
-}
 
 
 .third-sec{
 	display: none;
+}
+
+.fourth-sec{
+	display: none;
+	height: 100%;
+}
+
+.row1{
+
+	height: 35%;
 }
 /*End-Sec*/
