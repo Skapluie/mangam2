@@ -13,7 +13,7 @@ body{
 
 /*Main*/
 .main{
-	display: none;
+
 }
 /*End Main*/
 /*first sec*/
@@ -57,11 +57,15 @@ body{
 
 /*Sec-sec*/
 .sec-sec{
-	
+	display: none;
 }
 
 
 .third-sec{
+	display: none;
+}
+
+.fourth-sec{
 	display: none;
 }
 /*End-Sec*/
