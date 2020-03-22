@@ -5,6 +5,17 @@ body{
 	margin: 0; height: 100%; overflow: hidden
 }
 
+/*Intro*/
+.intro{
+	display: none;
+}
+/*End intro*/
+
+/*Main*/
+.main{
+	display: none;
+}
+/*End Main*/
 /*first sec*/
 .fist-sec{
 	display: none;
@@ -24,6 +35,7 @@ body{
 
 /*Header*/
 .header{
+	
 	margin-top: 20px;
 }
 .logo{
@@ -35,6 +47,9 @@ body{
 /*End Header*/
 
 /*Footer*/
+.footer{
+
+}
 .footer img{
 	
 }
@@ -42,6 +57,11 @@ body{
 
 /*Sec-sec*/
 .sec-sec{
+	
+}
+
+
+.third-sec{
 	display: none;
 }
 /*End-Sec*/
