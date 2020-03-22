@@ -5,6 +5,9 @@ body{
 	margin: 0; height: 100%; overflow: hidden
 }
 
+ul li{
+	list-style: none;
+}
 /*Intro*/
 .intro{
 	display: none;
@@ -66,6 +69,10 @@ body{
 }
 
 .fourth-sec{
+	display: none;
+}
+
+.five-sec{
 	display: none;
 }
 /*End-Sec*/
