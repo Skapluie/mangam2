@@ -6,15 +6,54 @@ body{
 }
 
 /*Intro*/
-.intro{
-	display: none;
+#intro{
+
 }
 /*End intro*/
 
 /*Main*/
 .main{
+
 	display: none;
 }
+
+.icons-dis{
+
+	display: none;
+}
+
+.icon-1{
+
+	display: none;
+}
+
+.icon-2{
+
+	display: none;
+}
+
+.icon-3{
+
+	display: none;
+}
+.icon-4{
+
+	display: none;
+}
+.icon-5{
+
+	display: none;
+}
+.icon-6{
+
+	display: none;
+}
+.icon-7{
+
+	display: none;
+}
+
+
 /*End Main*/
 /*first sec*/
 .fist-sec{
@@ -49,6 +88,7 @@ body{
 /*Footer*/
 .footer{
 
+	display: none;
 }
 .footer img{
 	
