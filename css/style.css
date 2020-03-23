@@ -7,6 +7,9 @@ body, html{
 
 }
 
+ul li{
+	list-style: none;
+}
 /*Intro*/
 #intro{
 
@@ -57,7 +60,7 @@ body, html{
 }
 /*End second Section */
 
-/*Thid Section */
+/*Third Section */
 .icon2-1{
 
 	display: none;
@@ -89,7 +92,7 @@ body, html{
 /*End Third Section */
 
 
-/*Thid Section */
+/*fourth Section */
 .icon3-2{
 
 	display: none;
@@ -114,7 +117,58 @@ body, html{
 	display: none;
 }
 
-/*End Third Section */
+/*End fourth Section */
+
+/*fifth Section */
+.div-1{
+
+	display: none;
+}
+
+.div-2{
+
+	display: none;
+}
+
+.div-3{
+
+	display: none;
+}
+
+.div-4{
+
+	display: none;
+}
+
+.div-5{
+
+	display: none;
+}
+
+.div-6{
+
+	display: none;
+}
+
+.div-7{
+
+	display: none;
+}
+
+/*End fifth Section */
+
+/* sixth section */
+
+.sixth-sec{
+
+	display: none;
+}
+.div2-1, .div2-2, .div2-3, .div2-4, #div2-1-h2{
+	display: none;
+}
+
+/* End sixth Section */
+
 
 /*End Main*/
 /*first sec*/
@@ -172,5 +226,9 @@ body, html{
 .row1{
 
 	height: 35%;
+}
+
+.five-sec{
+	display: none;
 }
 /*End-Sec*/

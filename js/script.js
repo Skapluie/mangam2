@@ -146,6 +146,88 @@ $(document).ready(function(){
 				$('#icon3-2').addClass('animated fadeInRight');
 				$counter++;
 				
+			}else if($counter == 22){
+
+				$('.fourth-sec').fadeOut().promise().done(function(){
+					$('.five-sec').fadeIn(1000);
+				});
+				$counter++;
+				
+			}else if($counter == 23){
+
+				$('#div-1').removeClass('div-1');
+				$('#div-1').addClass('animated fadeInLeft');
+				$counter++;
+				
+			}else if($counter == 24){
+
+				$('#div-2').removeClass('div-2');
+				$('#div-2').addClass('animated fadeInRight');
+				$counter++;
+				
+			}else if($counter == 25){
+
+				$('#div-3').removeClass('div-3');
+				$('#div-3').addClass('animated fadeInDown');
+				$counter++;
+				
+			}else if($counter == 26){
+
+				$('#div-4').removeClass('div-4');
+				$('#div-4').addClass('animated fadeInLeft');
+				$counter++;
+				
+			}else if($counter == 27){
+
+				$('#div-5').removeClass('div-5');
+				$('#div-5').addClass('animated fadeInDown');
+				$counter++;
+				
+			}else if($counter == 28){
+
+				$('#div-6').removeClass('div-6');
+				$('#div-6').addClass('animated fadeInDown');
+				$counter++;
+				
+			}else if($counter == 29){
+
+				$('#div-7').removeClass('div-7');
+				$('#div-7').addClass('animated fadeInRight');
+				$counter++;
+				
+			}else if($counter == 30){
+
+				$('.five-sec').fadeOut().promise().done(function(){
+					$('.sixth-sec').fadeIn(1000);
+				});
+				$counter++;
+				
+			}else if($counter == 31){
+
+				$('#div2-1').removeClass('div2-1');
+				$('#div2-1').addClass('animated fadeInLeft');
+				$counter++;
+				
+			}else if($counter == 32){
+
+				$('#div2-2').removeClass('div2-2');
+				$('#div2-2').addClass('animated fadeInRight');
+				$counter++;
+				
+			}else if($counter == 33){
+				$('#div2-1').addClass('animated fadeOutRight').promise().done(function(){
+					$('#div2-3').removeClass('div2-3');
+					$('#div2-3').addClass('animated fadeInLeft');
+				});
+				$counter++;
+				
+			}else if($counter == 34){
+				$('#div2-2').addClass('animated fadeOutLeft').promise().done(function(){
+					$('#div2-4').removeClass('div2-4');
+					$('#div2-4').addClass('animated fadeInRight');
+				});
+				$counter++;
+				
 			}
 
 
