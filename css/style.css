@@ -7,8 +7,19 @@ body, html{
 
 }
 
-ul li{
-	list-style: none;
+.list-1{
+	list-style: arabic-indic;
+	margin-top: 1%;
+}
+
+.list-2{
+	list-style: disc;
+	margin-top: 1%;
+}
+
+h2{
+
+	margin-bottom: 1%;
 }
 /*Intro*/
 #intro{
@@ -168,6 +179,41 @@ ul li{
 }
 
 /* End sixth Section */
+
+
+/* seventh section */
+
+.seventh-sec{
+
+	display: none;
+}
+.div3-1{
+	display: none;
+}
+
+/* End seventh Section */
+
+
+/* eighth section */
+
+.eighth-sec{
+
+	display: none;
+}
+.div4-1{
+	display: none;
+}
+
+/* End eighth Section */
+
+/* Outro */
+
+.outro, .div5-logo, .div5-1, .div5-2, .div5-3, .div5-4, .div5-5{
+
+	display: none;
+}
+
+/* End Outro */
 
 
 /*End Main*/

@@ -228,6 +228,47 @@ $(document).ready(function(){
 				});
 				$counter++;
 				
+			}else if($counter == 35){
+
+				$('.sixth-sec').fadeOut().promise().done(function(){
+					$('.seventh-sec').fadeIn(1000);
+				});
+				$counter++;
+				
+			}else if($counter == 36){
+
+				$('#div3-1').removeClass('div3-1');
+				$('#div3-1').addClass('animated fadeInLeft');
+				$counter++;
+				
+			}else if($counter == 37){
+
+				$('.seventh-sec').fadeOut().promise().done(function(){
+					$('.eighth-sec').fadeIn(1000);
+				});
+				$counter++;
+				
+			}else if($counter == 38){
+
+				$('#div4-1').removeClass('div4-1');
+				$('#div4-1').addClass('animated fadeInLeft');
+				$counter++;
+				
+			}else if($counter == 39){
+
+				$('.header').fadeOut();
+				$('.sec-sec').fadeOut();
+				$('.eighth-sec').fadeOut().promise().done(function(){
+					$('.outro').fadeIn(1000);
+					$('#div5-logo').removeClass('div5-logo');
+					$('#div5-1').removeClass('div5-1');
+					$('#div5-2').removeClass('div5-2');
+					$('#div5-3').removeClass('div5-3');
+					$('#div5-4').removeClass('div5-4');
+					$('#div5-5').removeClass('div5-5');
+				});
+				$counter++;
+				
 			}
 
 
