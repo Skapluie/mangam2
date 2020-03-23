@@ -68,6 +68,7 @@ $(document).ready(function(){
 				
 			}else if($counter == 9){
 
+				$('.sec-sec').fadeOut();
 				$('#icons').fadeOut().promise().done(function(){
 					$('.third-sec').fadeIn(1000);
 				});
@@ -155,20 +156,21 @@ $(document).ready(function(){
 				
 			}else if($counter == 23){
 
+				$('#div-3').removeClass('div-3');
+				$('#div-3').addClass('animated fadeInDown');
+				$counter++;
+	
+				
+			}else if($counter == 24){
+
 				$('#div-1').removeClass('div-1');
 				$('#div-1').addClass('animated fadeInLeft');
 				$counter++;
 				
-			}else if($counter == 24){
+			}else if($counter == 25){
 
 				$('#div-2').removeClass('div-2');
 				$('#div-2').addClass('animated fadeInRight');
-				$counter++;
-				
-			}else if($counter == 25){
-
-				$('#div-3').removeClass('div-3');
-				$('#div-3').addClass('animated fadeInDown');
 				$counter++;
 				
 			}else if($counter == 26){
@@ -210,54 +212,248 @@ $(document).ready(function(){
 				
 			}else if($counter == 32){
 
+				$('#li1-2').removeClass('li1-2');
+				$counter++;
+				
+			}else if($counter == 33){
+
+				$('#li1-3').removeClass('li1-3');
+				$counter++;
+				
+			}else if($counter == 34){
+
+				$('#li1-4').removeClass('li1-4');
+				$counter++;
+				
+			}else if($counter == 35){
+
+				$('#li1-5').removeClass('li1-5');
+				$counter++;
+				
+			}else if($counter == 36){
+
 				$('#div2-2').removeClass('div2-2');
 				$('#div2-2').addClass('animated fadeInRight');
 				$counter++;
 				
-			}else if($counter == 33){
+			}else if($counter == 37){
+
+				$('#li2-2').removeClass('li2-2');
+				$counter++;
+				
+			}else if($counter == 38){
+
+				$('#li2-3').removeClass('li2-3');
+				$counter++;
+				
+			}else if($counter == 39){
+
+				$('#li2-4').removeClass('li2-4');
+				$counter++;
+				
+			}else if($counter == 40){
+
+				$('#li2-5').removeClass('li2-5');
+				$counter++;
+				
+			}else if($counter == 41){
+
+				$('#li2-6').removeClass('li2-6');
+				$counter++;
+				
+			}else if($counter == 42){
+
+				$('#li2-7').removeClass('li2-7');
+				$counter++;
+				
+			}else if($counter == 43){
 				$('#div2-1').addClass('animated fadeOutRight').promise().done(function(){
 					$('#div2-3').removeClass('div2-3');
 					$('#div2-3').addClass('animated fadeInLeft');
 				});
 				$counter++;
 				
-			}else if($counter == 34){
+			}else if($counter == 44){
+
+				$('#li3-2').removeClass('li3-2');
+				$counter++;
+				
+			}else if($counter == 45){
+
+				$('#li3-3').removeClass('li3-3');
+				$counter++;
+				
+			}else if($counter == 46){
+
+				$('#li3-4').removeClass('li3-5');
+				$counter++;
+				
+			}else if($counter == 47){
+
+				$('#li3-5').removeClass('li3-5');
+				$counter++;
+				
+			}else if($counter == 48){
 				$('#div2-2').addClass('animated fadeOutLeft').promise().done(function(){
 					$('#div2-4').removeClass('div2-4');
 					$('#div2-4').addClass('animated fadeInRight');
 				});
 				$counter++;
 				
-			}else if($counter == 35){
+			}else if($counter == 49){
+
+				$('#li4-1').removeClass('li4-1');
+				$counter++;
+				
+			}else if($counter == 50){
+
+				$('#li4-2').removeClass('li4-2');
+				$counter++;
+				
+			}else if($counter == 51){
+
+				$('#li4-3').removeClass('li4-3');
+				$counter++;
+				
+			}else if($counter == 52){
+
+				$('#li4-4').removeClass('li4-4');
+				$counter++;
+				
+			}else if($counter == 53){
+
+				$('#li4-5').removeClass('li4-5');
+				$counter++;
+				
+			}else if($counter == 54){
+
+				$('#li4-6').removeClass('li4-6');
+				$counter++;
+				
+			}else if($counter == 55){
+
+				$('#li4-7').removeClass('li4-7');
+				$counter++;
+				
+			}else if($counter == 56){
 
 				$('.sixth-sec').fadeOut().promise().done(function(){
 					$('.seventh-sec').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 36){
+			}else if($counter == 57){
 
 				$('#div3-1').removeClass('div3-1');
 				$('#div3-1').addClass('animated fadeInLeft');
 				$counter++;
 				
-			}else if($counter == 37){
+			}else if($counter == 58){
+
+				$('#li5-2').removeClass('li5-2');
+				$counter++;
+				
+			}else if($counter == 59){
+
+				$('#li5-3').removeClass('li5-3');
+				$counter++;
+				
+			}else if($counter == 60){
+
+				$('#li5-4').removeClass('li5-4');
+				$counter++;
+				
+			}else if($counter == 61){
+
+				$('#li5-5').removeClass('li5-5');
+				$counter++;
+				
+			}else if($counter == 62){
+
+				$('#li5-6').removeClass('li5-6');
+				$counter++;
+				
+			}else if($counter == 63){
+
+				$('#li5-7').removeClass('li5-7');
+				$counter++;
+				
+			}else if($counter == 64){
+
+				$('#li5-8').removeClass('li5-8');
+				$counter++;
+				
+			}else if($counter == 65){
 
 				$('.seventh-sec').fadeOut().promise().done(function(){
 					$('.eighth-sec').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 38){
+			}else if($counter == 66){
 
 				$('#div4-1').removeClass('div4-1');
 				$('#div4-1').addClass('animated fadeInLeft');
 				$counter++;
 				
-			}else if($counter == 39){
+			}else if($counter == 67){
+
+				$('#li6-1-1').removeClass('li6-1-1');
+				$counter++;
+				
+			}else if($counter == 68){
+
+				$('#li6-1-2').removeClass('li6-1-2');
+				$counter++;
+				
+			}else if($counter == 69){
+
+				$('#li6-1-3').removeClass('li6-1-3');
+				$counter++;
+				
+			}else if($counter == 70){
+
+				$('#li6-1-4').removeClass('li6-1-4');
+				$counter++;
+				
+			}else if($counter == 71){
+
+				$('#li6-2').removeClass('li6-2');
+				$counter++;
+				
+			}else if($counter == 72){
+
+				$('#li6-3').removeClass('li6-3');
+				$counter++;
+				
+			}else if($counter == 73){
+
+				$('#li6-4').removeClass('li6-4');
+				$counter++;
+				
+			}else if($counter == 74){
+
+				$('#li6-5').removeClass('li6-5');
+				$counter++;
+				
+			}else if($counter == 75){
+
+				$('#li6-6').removeClass('li6-6');
+				$counter++;
+				
+			}else if($counter == 76){
+
+				$('#li6-7').removeClass('li6-7');
+				$counter++;
+				
+			}else if($counter == 77){
+
+				$('#li6-8').removeClass('li6-8');
+				$counter++;
+				
+			}else if($counter == 78){
 
 				$('.header').fadeOut();
-				$('.sec-sec').fadeOut();
 				$('.eighth-sec').fadeOut().promise().done(function(){
 					$('.outro').fadeIn(1000);
 					$('#div5-logo').removeClass('div5-logo');
