@@ -185,154 +185,142 @@ $(document).ready(function(){
 				
 			}else if($counter == 39){
 
-				$('#li2-6').addClass('li2-6');
+				$('#div2-3').addClass('div2-3');
 				
 			}else if($counter == 40){
 
-				$('#li2-7').addClass('li2-7');
+				$('#li3-2').addClass('li3-2');
 				
 			}else if($counter == 41){
-
-				$('#div2-3').addClass('div2-3');
+				alert($counter);
+				$('#li3-3').addClass('li3-3');
 				
 			}else if($counter == 42){
 
-				$('#li3-2').addClass('li3-2');
-				
-			}else if($counter == 43){
-
-				$('#li3-3').addClass('li3-3');
-				
-			}else if($counter == 44){
-
 				$('#li3-4').addClass('li3-4');
 				
-			}else if($counter == 45){
-
-				$('#li3-5').addClass('li3-5');
-				
-			}else if($counter == 46){
+			}else if($counter == 43){
 				$('.sixth-sec-2').fadeOut().promise().done(function(){
 					$('.sixth-sec').fadeIn(1000);
 				});
 				
-			}else if($counter == 47){
+			}else if($counter == 44){
 
 				$('#li4-1').addClass('li4-1');
 				
-			}else if($counter == 48){
+			}else if($counter == 45){
 
 				$('#li4-2').addClass('li4-2');
 				
-			}else if($counter == 49){
+			}else if($counter == 46){
 
 				$('#li4-3').addClass('li4-3');
 				
-			}else if($counter == 50){
+			}else if($counter == 47){
 
 				$('#li4-4').addClass('li4-4');
 				
-			}else if($counter == 51){
+			}else if($counter == 48){
 
 				$('#li4-5').addClass('li4-5');
 				
-			}else if($counter == 52){
+			}else if($counter == 49){
 
 				$('#li4-6').addClass('li4-6');
 				
-			}else if($counter == 53){
+			}else if($counter == 50){
 
 				$('#li4-7').addClass('li4-7');
 				
-			}else if($counter == 54){
+			}else if($counter == 51){
 
 				$('.seventh-sec').fadeOut().promise().done(function(){
 					$('.sixth-sec-2').fadeIn(1000);
 				});
 				
-			}else if($counter == 55){
+			}else if($counter == 52){
 
 				$('#div3-1').addClass('div3-1');
 				
-			}else if($counter == 56){
+			}else if($counter == 53){
 
 				$('#li5-2').addClass('li5-2');
 				
-			}else if($counter == 57){
+			}else if($counter == 54){
 
 				$('#li5-3').addClass('li5-3');
 				
-			}else if($counter == 58){
+			}else if($counter == 55){
 
 				$('#li5-4').addClass('li5-4');
 				
-			}else if($counter == 59){
+			}else if($counter == 56){
 
 				$('#li5-5').addClass('li5-5');
 				
-			}else if($counter == 60){
+			}else if($counter == 57){
 
 				$('#li5-6').addClass('li5-6');
 				
-			}else if($counter == 61){
+			}else if($counter == 58){
 
 				$('#li5-7').addClass('li5-7');
 				
-			}else if($counter == 62){
+			}else if($counter == 59){
 
 				$('#li5-8').addClass('li5-8');
 				
-			}else if($counter == 63){
+			}else if($counter == 60){
 
 				$('.eighth-sec').fadeOut().promise().done(function(){
 					$('.seventh-sec').fadeIn(1000);
 				});
 				
-			}else if($counter == 64){
+			}else if($counter == 61){
 
 				$('#div4-1').addClass('div4-1');
 				
-			}else if($counter == 65){
+			}else if($counter == 62){
 
 				$('#li6-1-1').addClass('li6-1-1');
 				
-			}else if($counter == 66){
+			}else if($counter == 63){
 
 				$('#li6-1-2').addClass('li6-1-2');
 				
-			}else if($counter == 67){
+			}else if($counter == 64){
 
 				$('#li6-1-3').addClass('li6-1-3');
 				
-			}else if($counter == 68){
+			}else if($counter == 65){
 
 				$('#li6-1-4').addClass('li6-1-4');
 				
-			}else if($counter == 69){
+			}else if($counter == 66){
 
 				$('.eighth-sec-2').fadeOut().promise().done(function(){
 					$('.eighth-sec').fadeIn(1000);
 				});
 				
-			}else if($counter == 70){
+			}else if($counter == 67){
 
 				$('#li6-3').addClass('li6-3');
 				
-			}else if($counter == 71){
+			}else if($counter == 68){
 
 				$('#li6-4').addClass('li6-4');
 				
-			}else if($counter == 72){
+			}else if($counter == 69){
 
 				$('.eighth-sec-3').fadeOut().promise().done(function(){
 					$('.eighth-sec-2').fadeIn(1000);
 				});
 				
-			}else if($counter == 73){
+			}else if($counter == 70){
 
 				$('#li6-6').addClass('li6-6');
 				
-			}else if($counter == 74){
+			}else if($counter == 71){
 
 				$('.outro').fadeOut().promise().done(function(){
 					$('.header').fadeIn();
@@ -340,7 +328,7 @@ $(document).ready(function(){
 					$('.outrov').fadeOut();
 				});
 				
-			}else if($counter == 75){
+			}else if($counter == 72){
 				$('.fist-sec').fadeOut().promise().done(function(){
 					$('.outro').fadeIn();
 				});
@@ -597,192 +585,177 @@ $(document).ready(function(){
 				$counter++;
 				
 			}else if($counter == 38){
-
-				$('#li2-6').removeClass('li2-6');
-				$counter++;
-				
-			}else if($counter == 39){
-
-				$('#li2-7').removeClass('li2-7');
-				$counter++;
-				
-			}else if($counter == 40){
 				$('#div2-3').removeClass('div2-3');
 				$('#div2-3').addClass('animated fadeInLeft');
 				$counter++;
 				
-			}else if($counter == 41){
+			}else if($counter == 39){
 
 				$('#li3-2').removeClass('li3-2');
 				$counter++;
 				
-			}else if($counter == 42){
+			}else if($counter == 40){
 
 				$('#li3-3').removeClass('li3-3');
 				$counter++;
 				
-			}else if($counter == 43){
+			}else if($counter == 41){
 
 				$('#li3-4').removeClass('li3-4');
 				$counter++;
 				
-			}else if($counter == 44){
-
-				$('#li3-5').removeClass('li3-5');
-				$counter++;
-				
-			}else if($counter == 45){
+			}else if($counter == 42){
 				$('.sixth-sec').fadeOut().promise().done(function(){
 					$('.sixth-sec-2').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 46){
+			}else if($counter == 43){
 
 				$('#li4-1').removeClass('li4-1');
 				$counter++;
 				
-			}else if($counter == 47){
+			}else if($counter == 44){
 
 				$('#li4-2').removeClass('li4-2');
 				$counter++;
 				
-			}else if($counter == 48){
+			}else if($counter == 45){
 
 				$('#li4-3').removeClass('li4-3');
 				$counter++;
 				
-			}else if($counter == 49){
+			}else if($counter == 46){
 
 				$('#li4-4').removeClass('li4-4');
 				$counter++;
 				
-			}else if($counter == 50){
+			}else if($counter == 47){
 
 				$('#li4-5').removeClass('li4-5');
 				$counter++;
 				
-			}else if($counter == 51){
+			}else if($counter == 48){
 
 				$('#li4-6').removeClass('li4-6');
 				$counter++;
 				
-			}else if($counter == 52){
+			}else if($counter == 49){
 
 				$('#li4-7').removeClass('li4-7');
 				$counter++;
 				
-			}else if($counter == 53){
+			}else if($counter == 50){
 
 				$('.sixth-sec-2').fadeOut().promise().done(function(){
 					$('.seventh-sec').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 54){
+			}else if($counter == 51){
 
 				$('#div3-1').removeClass('div3-1');
 				$('#div3-1').addClass('animated fadeInLeft');
 				$counter++;
 				
-			}else if($counter == 55){
+			}else if($counter == 52){
 
 				$('#li5-2').removeClass('li5-2');
 				$counter++;
 				
-			}else if($counter == 56){
+			}else if($counter == 53){
 
 				$('#li5-3').removeClass('li5-3');
 				$counter++;
 				
-			}else if($counter == 57){
+			}else if($counter == 54){
 
 				$('#li5-4').removeClass('li5-4');
 				$counter++;
 				
-			}else if($counter == 58){
+			}else if($counter == 55){
 
 				$('#li5-5').removeClass('li5-5');
 				$counter++;
 				
-			}else if($counter == 59){
+			}else if($counter == 56){
 
 				$('#li5-6').removeClass('li5-6');
 				$counter++;
 				
-			}else if($counter == 60){
+			}else if($counter == 57){
 
 				$('#li5-7').removeClass('li5-7');
 				$counter++;
 				
-			}else if($counter == 61){
+			}else if($counter == 58){
 
 				$('#li5-8').removeClass('li5-8');
 				$counter++;
 				
-			}else if($counter == 62){
+			}else if($counter == 59){
 
 				$('.seventh-sec').fadeOut().promise().done(function(){
 					$('.eighth-sec').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 63){
+			}else if($counter == 60){
 
 				$('#div4-1').removeClass('div4-1');
 				$('#div4-1').addClass('animated fadeInLeft');
 				$counter++;
 				
-			}else if($counter == 64){
+			}else if($counter == 61){
 
 				$('#li6-1-1').removeClass('li6-1-1');
 				$counter++;
 				
-			}else if($counter == 65){
+			}else if($counter == 62){
 
 				$('#li6-1-2').removeClass('li6-1-2');
 				$counter++;
 				
-			}else if($counter == 66){
+			}else if($counter == 63){
 
 				$('#li6-1-3').removeClass('li6-1-3');
 				$counter++;
 				
-			}else if($counter == 67){
+			}else if($counter == 64){
 
 				$('#li6-1-4').removeClass('li6-1-4');
 				$counter++;
 				
-			}else if($counter == 68){
+			}else if($counter == 65){
 
 				$('.eighth-sec').fadeOut().promise().done(function(){
 					$('.eighth-sec-2').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 69){
+			}else if($counter == 66){
 
 				$('#li6-3').removeClass('li6-3');
 				$counter++;
 				
-			}else if($counter == 70){
+			}else if($counter == 67){
 
 				$('#li6-4').removeClass('li6-4');
 				$counter++;
 				
-			}else if($counter == 71){
+			}else if($counter == 68){
 
 				$('.eighth-sec-2').fadeOut().promise().done(function(){
 					$('.eighth-sec-3').fadeIn(1000);
 				});
 				$counter++;
 				
-			}else if($counter == 72){
+			}else if($counter == 69){
 
 				$('#li6-6').removeClass('li6-6');
 				$counter++;
 				
-			}else if($counter == 73){
+			}else if($counter == 70){
 
 				$('.header').fadeOut();
 				$('.eighth-sec-3').fadeOut().promise().done(function(){
@@ -798,7 +771,7 @@ $(document).ready(function(){
 				
 			}
 
-			else if($counter == 74){
+			else if($counter == 71){
 				
 				$('.eighth-sec-3').fadeOut();
 				$('.outro').fadeOut();
